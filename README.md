@@ -1,8 +1,6 @@
-### Hello, I'm Nicolas Dommanget-Muller 👋
+### Hello, I'm Nicolas Dommanget 👋
 
-Full-Stack Developer (Node.js | React.js) 🧑‍💻
-
-Building side projects in public.
+Software engineer @mailjet the day, side projects the night.
 
 ### Move to GitLab
 
