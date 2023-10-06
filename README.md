@@ -1,6 +1,6 @@
 ### Hello, I'm Nicolas Dommanget 👋
 
-Software engineer @mailjet the day, side projects the night.
+Software engineer [@mailjet](https://github.com/mailgun) the day, side projects the night.
 
 ### Move to GitLab
 
