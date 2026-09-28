@@ -31,7 +31,7 @@ body {
 main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 5rem 1.5rem 4rem;
+  padding: 3.5rem 1.5rem 1rem;
 }
 
 .avatar {
@@ -104,18 +104,154 @@ h2 {
   font-size: 0.95rem;
 }
 
-footer {
-  margin-top: 3.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
+a {
+  color: var(--text);
+  text-underline-offset: 2px;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.site-header,
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  flex-wrap: wrap;
   font-size: 0.9rem;
 }
 
-footer a {
-  color: var(--text);
+.site-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-weight: 600;
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.site-header nav,
+.site-footer nav {
+  display: flex;
+  gap: 0.5rem 1.25rem;
+  flex-wrap: wrap;
+}
+
+.site-header nav a,
+.site-footer nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-header nav a:hover,
+.site-footer nav a:hover,
+.site-header nav a[aria-current="page"] {
+  color: var(--text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  padding-bottom: 3rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.card p {
+  margin: 0.5rem 0 0;
+  font-size: 0.95rem;
+}
+
+.card ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.contact-line {
+  font-weight: 600;
+}
+
+.features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features li {
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.features strong,
+.features span {
+  display: block;
+}
+
+.features span {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.15rem;
+}
+
+.section-intro {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+
+details {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+details:last-of-type {
+  border-bottom: 1px solid var(--border);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details p {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+}
+
+.prose p,
+.prose li {
+  font-size: 0.95rem;
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+}
+
+.prose ul.plain {
+  list-style: none;
+  padding-left: 0;
+}
+
+.updated,
+.muted {
+  color: var(--muted);
+}
+
+.updated {
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
 }
