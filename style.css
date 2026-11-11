@@ -265,6 +265,10 @@ details p {
   transition: border-color 0.15s ease;
 }
 
+.app-card + .app-card {
+  margin-top: 1rem;
+}
+
 .app-card:hover {
   border-color: var(--muted);
 }
