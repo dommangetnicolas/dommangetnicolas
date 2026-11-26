@@ -11,7 +11,7 @@ A menu bar app that keeps an eye on your git projects and commits them with AI-w
 A command-line tool that strips location, camera and date metadata from photos and videos while keeping orientation and color profile, so files look the same after cleaning. [npm](https://www.npmjs.com/package/clean-assets-meta)
 
 **[Unfold: Private Journal](https://play.google.com/store/apps/details?id=com.unfold)** · iOS · Android
-A calm, private journal that notices what keeps coming back in your thoughts: moods, recurring patterns and clear summaries, with no ads and no sign-up.
+A calm, private journal that notices what keeps coming back in your thoughts: moods, recurring patterns and clear summaries, with no ads and no sign-up. [App Store](https://apps.apple.com/app/unfold-private-diary-notes/id6819692657) · [Google Play](https://play.google.com/store/apps/details?id=com.unfold)
 
 ## Experience
 
