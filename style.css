@@ -328,13 +328,6 @@ details p {
   margin: 0 0 3rem;
 }
 
-.store-button.is-pending {
-  background: transparent;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  cursor: default;
-}
-
 a.store-button:hover {
   opacity: 0.85;
 }
